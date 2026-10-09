@@ -1,5 +1,5 @@
 Package: paquetepractice
-Title: What the Package Does (One Line, Title Case)
+Title: Paquete de Prueba para Aprender a Desarrollar Paquetes
 Version: 0.0.0.9000
 Authors@R: 
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
