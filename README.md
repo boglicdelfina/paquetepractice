@@ -47,7 +47,7 @@ proporcion_na(c(0, 1, 2, NA, 4, NA))
 #> [1] 0.3333333
 ```
 
-El paquete también incluye el objeto `datos`, un vector de 1000 números
+El paquete también incluye el objeto `datos`, un vector de 1000 números.
 en orden aleatorio que sirve para probar las funciones:
 
 ``` r
