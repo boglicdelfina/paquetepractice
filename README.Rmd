@@ -1,0 +1,63 @@
+---
+output: github_document
+---
+
+<!-- README.md se genera desde README.Rmd. Por favor editá ese archivo -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# paquetepractice
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+paquetepractice es un paquete de práctica creado durante la cursada de
+Programación II. Reúne algunas funciones simples para aprender a
+desarrollar, documentar y testear paquetes de R.
+
+## Instalación
+
+Podés instalar la versión en desarrollo de paquetepractice desde
+[GitHub](https://github.com/) con:
+
+``` r
+# install.packages("pak")
+pak::pak("boglicdelfina/paquetepractice")
+```
+
+## Ejemplos
+
+`suma()` suma dos números positivos:
+
+```{r ejemplo-suma}
+library(paquetepractice)
+
+suma(2, 2)
+```
+
+Si no le pasamos argumentos usa los valores por defecto:
+
+```{r ejemplo-suma-defecto}
+suma()
+```
+
+`proporcion_na()` devuelve qué proporción de los valores de un vector
+son `NA`:
+
+```{r ejemplo-na}
+proporcion_na(c(0, 1, 2, NA, 4, NA))
+```
+
+El paquete también incluye el objeto `datos`, un vector de 1000 números
+en orden aleatorio que sirve para probar las funciones:
+
+```{r ejemplo-datos}
+head(datos)
+```
