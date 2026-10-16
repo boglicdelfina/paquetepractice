@@ -1,0 +1,70 @@
+# paquetepractice
+
+paquetepractice es un paquete de práctica creado durante la cursada de
+Programación II. Reúne algunas funciones simples para aprender a
+desarrollar, documentar y testear paquetes de R.
+
+## Instalación
+
+Podés instalar la versión en desarrollo de paquetepractice desde
+[GitHub](https://github.com/) con:
+
+``` r
+
+# install.packages("pak")
+pak::pak("boglicdelfina/paquetepractice")
+```
+
+## Ejemplos
+
+[`suma()`](https://boglicdelfina.github.io/paquetepractice/reference/suma.md)
+suma dos números positivos:
+
+``` r
+
+library(paquetepractice)
+
+suma(2, 2)
+#> [1] 4
+```
+
+Si no le pasamos argumentos usa los valores por defecto:
+
+``` r
+
+suma()
+#> [1] 6
+```
+
+[`proporcion_na()`](https://boglicdelfina.github.io/paquetepractice/reference/proporcion_na.md)
+devuelve qué proporción de los valores de un vector son `NA`:
+
+``` r
+
+proporcion_na(c(0, 1, 2, NA, 4, NA))
+#> [1] 0.3333333
+```
+
+El paquete también incluye el objeto `datos`, un vector de 1000 números.
+en orden aleatorio que sirve para probar las funciones:
+
+``` r
+
+head(datos)
+#> [1] 707  33 830 901 110 318
+```
+
+# Package index
+
+## All functions
+
+- [`proporcion_na()`](https://boglicdelfina.github.io/paquetepractice/reference/proporcion_na.md)
+  : Proporcion de datos faltantes
+- [`suma()`](https://boglicdelfina.github.io/paquetepractice/reference/suma.md)
+  : Suma
+
+# Articles
+
+### All vignettes
+
+- [vinieta_prueba](https://boglicdelfina.github.io/paquetepractice/articles/vinieta_prueba.md):
