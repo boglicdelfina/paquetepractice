@@ -16,6 +16,8 @@ knitr::opts_chunk$set(
 # paquetepractice
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/boglicdelfina/paquetepractice/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/boglicdelfina/paquetepractice/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/boglicdelfina/paquetepractice/graph/badge.svg)](https://app.codecov.io/gh/boglicdelfina/paquetepractice)
 <!-- badges: end -->
 
 paquetepractice es un paquete de práctica creado durante la cursada de
